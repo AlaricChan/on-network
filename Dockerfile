@@ -4,6 +4,7 @@
 # and a workspace (GOPATH) configured at /go.
 FROM golang
 
+
 # Copy the local package files to the container's workspace.
 ADD . /project
 WORKDIR /project
